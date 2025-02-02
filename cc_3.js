@@ -24,7 +24,9 @@ let employee = {
     isActive: true //Active or not active
 };
 employee.performanceScore = 95; //Updating the performance score
-employee.promotionEligible = employee.performanceScore >= 90; //Adding a new property called promotionEligible to the object employee
+//Adding a boolean property called promotionEligible based on the performance score
+//If the score is 90 or higher, true. Otherwise, it would be false.
+employee.promotionEligible = employee.performanceScore >= 90; 
 
 //Logging the updated employee object to the console
 console.log("Updated employee:", employee); 
