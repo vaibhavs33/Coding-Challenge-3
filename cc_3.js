@@ -5,7 +5,7 @@ prices.shift(); //Removing the first price from the array
 console.log("Updated prices:", prices); //Logging the updated array to the console
 
 //Task 2 - Modifying Customer Orders
-let orders = [4, 7, 6, 3, 9];
+let orders = [4, 7, 6, 3, 9]; //Declaring an array called orders that contain numerical values which represent the customer order quantities
 //Increasing the third order quantity in the array by 5
 orders[2] += 5;
 //Adding all the orders in the array and getting the total orders
